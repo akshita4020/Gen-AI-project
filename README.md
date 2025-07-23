@@ -1,44 +1,31 @@
-# YouTube Summary with ChatGPT
+# 📺 YouTube Summary with ChatGPT – GenAI Project
 
-YouTube Summary with ChatGPT is a simple Chrome Extension (manifest v3) that allows you to get both YouTube video transcripts and summary of the video with OpenAI's ChatGPT AI technology. Chrome Extension is available on [Chrome Web Store](https://chrome.google.com/webstore/detail/chatgpt-youtube-summary/nmmicjeknamkfloonkhhcjmomieiodli).
+This Chrome extension uses **ChatGPT** to generate instant summaries for YouTube videos by analyzing transcripts in real time. It leverages OpenAI's API to produce concise TL;DRs that help users save time while understanding video content faster.
 
-## How to Install
+## 🚀 Features
+- Automatically extracts YouTube video transcripts
+- Uses ChatGPT (GPT-3.5/GPT-4) to generate human-like summaries
+- Supports English and multilingual content
+- Clean, simple Chrome extension (Manifest v3)
 
-To install this extension, follow these steps:
+## 🛠 Tech Stack
+- JavaScript (client-side extension)
+- OpenAI GPT API
+- Chrome Extensions (Manifest V3)
 
-1. Download the code on GitHub.
-2. Unzip the downloaded file.
-3. Open the code in your favorite IDE like VS Code.
-4. Run `npm install` in terminal
-```
-npm install
-```
-5. Run `npm run build` or `npm run build-release` to run webpack to generate **dist** folder.
-```
-npm run build
-# or
-npm run build-release
-```
-6. In case of Google Chrome, open the Extensions page (chrome://extensions/).
-7. Turn on Developer mode by clicking the toggle switch in the top right corner of the page.
-8. Click the `Load unpacked` button and select the **dist** directory.
-9. YouTube Summary with ChatGPT extension should be installed and active!
+## 📦 How to Use
+1. Clone the repo
+2. Run `npm install`
+3. Build with `npm run build`
+4. Load the `dist` folder as an unpacked extension in Chrome
 
-## How to Use
+## 🧠 Use Cases
+- Summarizing lectures, podcasts, tutorials
+- Getting key takeaways without watching full videos
+- Accelerating content consumption
 
-To use YouTube Summary with ChatGPT extension, follow these steps (or [watch this video](https://www.youtube.com/watch?v=pNxsdLif2cs)):
+---
 
-1. Go to any YouTube videos.
-2. Click the small box on the right top that says `Transcript & Summary`.
-3. Click `View AI Summary` button (It automatically copies the prompt for you and opens the ChatGPT page!)
-4. Hit `Cmd + V` if you use Mac
-5. You'll see a magic!
+📍 **Project by [Akshita](https://github.com/akshita4020)** | Based on [kazuki-sf's repo](https://github.com/kazuki-sf/YouTube_Summary_with_ChatGPT)
+keep updated!
 
-## Notes
-
-- According to OpenAI, ChatGPT is experiencing exceptionally high demand. They work on scaling their systems but I can't guarantee that ChatGPT keeps free and is open forever.
-- This code manually fetches the YouTube video transcripts, and the platform might change the system so I also cannot guarantee that the YouTube video transcript code works forever. I'll try my best to keep updated!
-
-## Feedback & Support
-
-If you have any questions or feedback about YouTube Summary with ChatGPT Extension, please reach out to me on [Twitter](https://twitter.com/kazuki_sf_). Also, I'm building Glasp, a social web annotation tool to build your own AI models to write, search, and summarize better. If you're interested, please check out [Glasp](https://glasp.co/ai-summary).
